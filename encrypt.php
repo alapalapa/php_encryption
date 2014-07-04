@@ -2,8 +2,8 @@
 
 class Crypt_string
 {
-	protected $replace = array('$~', '¡~%', '#', '?', '@!', '9*', '´}', '|<', '_', '[', '¸','+', '"', '(', '(', 'x*', ',', ':', ';');
-	protected $search = array('a', 'e', 'i', 'o', 'u', 's', 'r', 'n', 'd', 'p', 'l', 'A', 'E', 'I', 'O', 'U', 'S', 'R', 'N', 'D', 'P', 'L');
+	protected $replace = array('.', '$~', '¡~%', '#', '?', '@!', '9*', '´}', '|<', '_', '[', '¸','+', '"', '(', '(', 'x*', ',', ':', ';');
+	protected $search = array(' ', 'a', 'e', 'i', 'o', 'u', 's', 'r', 'n', 'd', 'p', 'l', 'A', 'E', 'I', 'O', 'U', 'S', 'R', 'N', 'D', 'P', 'L');
 
 	public function encrypting($cadena)
 	{
