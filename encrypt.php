@@ -11,7 +11,7 @@ class Crypt_string
 		
 		$string = $this->invert($result);
 
-		return $string;
+		return $result.$string;
 	}
 
 	public function replace($cadena)
